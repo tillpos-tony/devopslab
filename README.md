@@ -33,5 +33,4 @@ kind create cluster --config k8s-distribution/kind/cni-disable.yml
 kustomize build network/cilium --enable-helm | kubectl apply -f -
 ```
 
-![tilt up](./assets/tiltup.png)
 
